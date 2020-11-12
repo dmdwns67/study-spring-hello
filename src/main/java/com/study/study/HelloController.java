@@ -31,6 +31,7 @@ public class HelloController {
         model.addAttribute("data", str);
         System.out.println("LOG: " + str);
         logger.info("INFO TEST");
+        logger.debug("DEBUG TEST");
         return "hello";
     }
 
