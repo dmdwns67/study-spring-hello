@@ -13,6 +13,4 @@ public class StudyApplication {
 		SpringApplication.run(StudyApplication.class, args);
 	}
 
-	@PostConstruct
-	public void started() { TimeZone.setDefault(TimeZone.getTimeZone("UTC")); }
 }
